@@ -1,0 +1,5 @@
+python-dotenv
+fastmcp
+pydantic
+yt-dlp
+assemblyai
