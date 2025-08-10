@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server.py"
+    }
+  ],
+  "env": {
+    "AUTH_TOKEN": "@auth_token",
+    "MY_NUMBER": "@my_number",
+    "ASSEMBLY_AI_API_KEY": "@assembly_ai_api_key"
+  }
+}
